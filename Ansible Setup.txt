@@ -1,0 +1,43 @@
+Install Ansible
+
+sudo apt-get update
+sudo apt install software-properties-common
+sudo apt-add-repository ppa:ansible/ansible
+sudo apt update
+sudo apt install ansible
+
+
+on hosts
+sudo apt update
+sudo apt-get install python
+
+
+keyless ssh 
+on master: ssh-keygen
+
+on slave: sudo nano .ssh/authorized_keys
+
+[server]
+host1 ansible_ssh_host=172.31.46.78
+
+
+
+
+
+setup Ansible controller
+Ansible infrastructure requirements :
+
+1. Supported Operating Systems:
+   Ubuntu 20.04 LTS 64-bit
+2. Instance size of m4.large for 100 hosts
+3. 8 GB RAM is recommended per 100 forks
+4. 30 GB hard disk
+5. 64-bit support required (kernel and runtime)
+
+--------------------------------------------------------
+Code for
+location based
+PRTG File transfer 
+
+
+sh admin all
